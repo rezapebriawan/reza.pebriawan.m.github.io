@@ -172,6 +172,8 @@
             Toko2
             <br>  
             Toko3
+            <br>  
+            Toko3
             </p>
           </div>
           <div class="footer-2">

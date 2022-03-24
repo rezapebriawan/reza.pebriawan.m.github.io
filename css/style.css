@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lucida Grande";
+    font-weight: bold;
+  }
+
+  @font-face /*perintah untuk memanggil font eksternal*/
+  {
+    font-family: 'Better'; /*memberikan nama bebas untuk font*/
+    src: url('font/Better Saturday.otf');/*memanggil file font eksternalnya di folder nexa*/
+  }
+ 
+
+  body {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Lucida Grande";
+
+  }
+
+  .lessons {
+  	width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .lesson-icon img {
+    
+    background-color: white;
+    border-collapse: 10px solid transparent;
+    padding: 5px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    justify-content: center;
+
+  }
+
+  .lesson-icon {
+    position: relative;
+    
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: black;
+
+  }
+  
+
+  .button-beli  {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .container-detail {
+  	width: 330px;
+  	text-align: center;
+  	margin: auto;
+  	background-color: white;
+  	   border-width: 5px;
+  	   border-style: solid;
+  	   border-color: black
+  }
+  .detail-produk {
+  	width: 300px;
+  	text-align: center;
+  	margin: 0 auto; 
+  }
+
+  .background-profile {
+  	margin: auto;
+  }
+  .kontainer-profile {
+  	width: 100%;
+  	height: 100%;
+  	background-color: red;
+  	margin: auto;
+  	
+  }
+  .kontainer-profile1 {
+  	width: 100%;
+  	height: 300px;
+  	background-color: #f2f2f2;
+  }
+  .kontainer-profile2 {
+  	width: 100%;
+  	height: 300px;
+  	background-color: white;
+  }  
+  .kontainer-profile3 {
+  	width: 100%;
+  	height: 300px;
+  	background-color: white;
+  }
+  .lesson-icon img {
+	margin: auto;
+    background-color: white;
+    border-collapse: 10px solid transparent;
+    justify-content: center;
+  }
+
+  
+  
+  
+  

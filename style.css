@@ -1,0 +1,418 @@
+  * {
+    box-sizing: border-box;
+    font-family: "Lucida Grande";
+    font-weight: bold;
+  }
+
+  @font-face /*perintah untuk memanggil font eksternal*/
+  {
+    font-family: 'Better'; /*memberikan nama bebas untuk font*/
+    src: url('font/Better Saturday.otf');/*memanggil file font eksternalnya di folder nexa*/
+  }
+ 
+   @font-face /*perintah untuk memanggil font eksternal*/
+  {
+    font-family: 'Comic'; /*memberikan nama bebas untuk font*/
+    src: url('font/design.graffiti.comicsansmsgras.ttf');/*memanggil file font eksternalnya di folder nexa*/
+  }
+
+
+  body {
+    background-color: white;
+    margin: 0;
+    font-family: "Lucida Grande";
+
+  }
+
+
+  
+  a {
+    text-decoration: none;
+  }
+
+  i
+
+  .container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  
+ 
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: #E4E1EA;
+    
+    /* ubah header biar gak geser penting position: fixed; */ 
+    top: 0;
+    margin-top: 20px;    
+    
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+    
+  }
+
+  .header-left a {
+    line-height: 60px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+  }
+
+
+  .header-centersatu {
+    float: left;
+  }
+
+  .header-left a {
+    font-family: 'Better';
+  }
+
+  .header-centersatu a {
+    line-height: 60px;
+    padding: 0 25px;
+    color: black;
+    display: block;
+  }
+
+  .header-centerdua {
+    float: left;   
+  }
+
+  .header-centerdua a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: black;
+    display: block;  
+  }
+
+
+  .search-button {
+    border: 2px solid white;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    width: 100px;
+    display: block;
+    
+  }
+
+
+
+
+  .header-right {
+    margin-right: 10px;
+    padding: auto;
+    float: right;
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    transition: all 0.5s;
+    
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-right a {
+    font-family: 'Comic';
+    line-height: 60px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+  
+
+  
+  /*
+  .slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .images {
+      display: flex;
+      width: 100%;
+  }
+  .images img {
+      height: 350px;
+      width: 100%;
+      transition: all 0.15s ease;
+  }
+  .images input {
+      display: none;
+  }
+  .dots {
+      display: flex;
+      justify-content: center;
+      margin: 5px;
+  }
+  .dots label {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      border: solid #fff 3px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      margin: 5px;
+  }
+  .dots label:hover {background: #fff;}
+  #img1:checked ~ .m1 {
+      margin-left: 0;
+  }
+  #img2:checked ~ .m2 {
+      margin-left: -100%;
+  }
+  #img3:checked ~ .m3 {
+      margin-left: -200%;
+  }
+  #img4:checked ~ .m4 {
+      margin-left: -300%;
+  }
+
+  */
+  .lesson-judul {
+    width: 100%;
+    position: absolute;
+    height: 100px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .heading {
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  
+
+  .heading p {
+    font-weight: normal;
+    font-family: 'Better';
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .lesson-wrapper {
+    height: 390px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 90px;
+  }
+
+  .lesson-wrapper-2 {
+    height: 390px;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  
+  
+  
+  .lesson {
+    float: left;
+    width: 33.3%;
+
+  }
+  
+  .lesson-icon img {
+    
+    background-color: white;
+    border-collapse: 10px solid transparent;
+    padding: 5px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    justify-content: center;
+
+  }
+
+  .lesson-icon {
+    position: relative;
+    
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: black;
+
+  }
+  
+
+  .button-beli  {
+    margin: auto;
+  }
+
+  p.txt-contents {
+    justify-content: center;
+    padding: auto;
+    width: 100px;
+    height: 50px;
+    text-align: center; 
+    background-color: red;
+
+  }
+
+  button.txt-contents {
+    justify-content: center;
+    padding: auto;
+    width: 150px;
+    height: 40px;
+    font-size: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: 'Comic';
+
+  }
+
+  .txt-contents {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  }
+  
+  
+
+
+
+
+  /*.bungkus-gorengan {
+    background-color: red;
+    height: 1000px;
+    display: block;
+  }
+  */
+
+  /*.container2 {
+    padding: 10px;
+    width: 100%;
+    height: 350px; 
+    margin: auto;
+    background-color: yellow;
+  }
+  */
+
+
+  /*
+  .main-container {
+      height: 100%;
+      display: flex;
+      margin-top: 50px;
+     
+      display: -moz-flex;
+      display: -o-flex;
+      display: -webkit-flex;
+      background-color: #E4E1EA;
+      padding: 30px 0;
+      justify-content: space-around;
+  }
+  
+  .content2 {
+      background-color: aqua;
+      width: 330px;
+      height: 270px;
+      margin: 0px;
+
+}
+  
+  
+
+  .main-container3 {
+      display: flex;
+      height: 460px;
+      margin-top: 50px;
+  
+      display: -moz-flex;
+      display: -o-flex;
+      display: -webkit-flex;
+      background-color: #E4E1EA;
+      padding: 0;
+      justify-content: space-around;
+  }
+  img.scale {
+    width: 100%;
+  }
+  .content3 {
+      background-color: aqua;
+      width: 50%;
+      height: 460px;
+      margin: 0px;
+  }
+
+  .content4 {
+      background-color: green;
+      width: 50%;
+      height: 460px;
+      margin-left: 50px;
+  }
+
+  css website sebelum dirubah */
+
+  footer {
+    margin-top: 50px;
+    font-family: 'Comic';
+  }
+
+  .container-footer {
+    background-color: #E4E1EA;
+    height: 200px;
+    width: 100%;
+    float: left;
+    font-family: 'Comic';
+  }
+
+  .footer-1 p{
+    background-color: #E4E1EA;
+    width: 30%;
+    float: left;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 200px;
+    font-family: 'Comic';
+  }
+
+  .footer-2 p{
+    background-color: #E4E1EA;
+    width: 20%;
+    float: right;
+    display: block;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 200px;
+    font-family: 'Comic'; 
+  }
+  .footer-2 a{
+    font-family: 'Comic';
+  }
+
+  .footer-3 p{
+    background-color: #E4E1EA;
+    width: 20%;
+    float: right;
+    display: block;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 200px;
+    font-family: 'Comic';
+  }
+
